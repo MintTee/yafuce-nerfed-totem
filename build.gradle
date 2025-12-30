@@ -16,7 +16,7 @@ base {
  */
 loom {
     mods {
-        "nerfed_totem" {
+        "yafuce_nerfed_totem" {
             sourceSet sourceSets.main
         }
     }
