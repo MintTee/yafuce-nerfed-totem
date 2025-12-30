@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.yafuce.yafuce_nerfed_totem.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TotemPopMixin",
+    "TotemCooldownCheckMixin",
+    "LivingEntityFallFlyingMixin",
+    "EvokerDeathMixin",
+    "accessor.EntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

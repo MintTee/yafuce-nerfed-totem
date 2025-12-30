@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "yafuce_nerfed_totem",
+  "version": "${version}",
+  "name": "Yafuce's Nerfed Totem",
+  "description": "Nerfed Totems in multiple ways WIP",
+  "authors": ["yafuce"],
+  "contact": {
+    "discord": "yafuce.",
+    "mail": "martin.bost@proton.me"
+  },
+  "license": "Creative Commons Zero",
+  "icon": "assets/yafuce_nerfed_totem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.yafuce.yafuce_nerfed_totem.main"
+    ]
+
+  },
+  "mixins": [
+    "yafuce_nerfed_totem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
