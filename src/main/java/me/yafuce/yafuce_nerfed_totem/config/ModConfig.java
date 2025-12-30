@@ -14,7 +14,7 @@ public class ModConfig {
     /** If true, totems never activate, regardless of cooldowns */
     public boolean alwaysBlockTotemActivation = false;
 
-    /** Stops raid spawner evokers from dropping totems. Obtaining a totem require a Woodland mansion Evoker, making totems unfarmable */
+    /** Stops raid spawned evokers from dropping totems. Obtaining a totem require a Woodland mansion Evoker, making totems unfarmable */
     public boolean unfarmableTotems = true;
 
     /** List of items with cooldown when a totem pops */
