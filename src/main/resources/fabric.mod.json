@@ -9,7 +9,7 @@
     "discord": "yafuce.",
     "mail": "martin.bost@proton.me"
   },
-  "license": "Creative Commons Zero",
+  "license": "GNU General Public License version 3",
   "icon": "assets/yafuce_nerfed_totem/icon.png",
   "environment": "*",
   "entrypoints": {
