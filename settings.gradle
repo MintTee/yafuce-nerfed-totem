@@ -9,6 +9,11 @@ pluginManagement {
 rootProject.name = "yafuce-nerfed-totem"
 
 include("common")
+include("mc-1.21")
+include("mc-1.21.1")
+include("mc-1.21.2")
+include("mc-1.21.3")
+include("mc-1.21.4")
 include("mc-1.21.5")
 include("mc-1.21.6")
 include("mc-1.21.7")
