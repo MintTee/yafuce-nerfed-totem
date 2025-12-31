@@ -1,0 +1,41 @@
+plugins {
+    id "fabric-loom" version "1.13.6"
+}
+
+group = project.maven_group
+version = "1.1.0"
+
+base {
+    archivesName = project.archives_base_name
+}
+
+dependencies {
+    implementation project(":common")
+
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+loom {
+    runs {
+        client {
+            name = "Client 1.21.10"
+        }
+        server {
+            name = "Server 1.21.10"
+        }
+    }
+}
+
+jar {
+    archiveClassifier.set("1.21.10")
+
+    // Include compiled classes from the common project
+    from(project(":common").sourceSets.main.output) {
+        // Optional: avoid duplicate META-INF files
+        exclude("META-INF/*.SF", "META-INF/*.DSA", "META-INF/*.RSA")
+    }
+}

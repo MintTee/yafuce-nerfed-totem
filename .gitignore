@@ -11,3 +11,5 @@ out/
 
 # OS
 .DS_Store
+
+all-jars/
