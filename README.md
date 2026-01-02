@@ -63,6 +63,16 @@ Edit ```config/yafuce_nerfed_totem.json``` to configure the mod.
       "itemId": "minecraft:trident",
       "cooldownTicks": 200,
       "enabled": true
+    },
+    {
+      "itemId": "minecraft:firework_rocket",
+      "cooldownTicks": 200,
+      "enabled": true
+    },
+    {
+      "itemId": "minecraft:wind_charge",
+      "cooldownTicks": 200,
+      "enabled": true
     }
   ],
   "effects": [
