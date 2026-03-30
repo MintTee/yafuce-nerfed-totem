@@ -8,6 +8,7 @@ build/
 
 run/
 out/
+run-gametest/
 
 # OS
 .DS_Store

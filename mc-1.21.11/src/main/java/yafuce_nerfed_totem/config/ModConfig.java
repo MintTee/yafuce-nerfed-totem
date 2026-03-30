@@ -26,7 +26,6 @@ public class ModConfig {
             new TotemCooldownEntry("minecraft:trident", 10*20, true),
             new TotemCooldownEntry("minecraft:firework_rocket", 10*20, true),
             new TotemCooldownEntry("minecraft:wind_charge", 10*20, true)
-
     );
 
     /* =====================
